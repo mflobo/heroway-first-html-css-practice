@@ -1,0 +1,42 @@
+h1 {
+    margin-top: 70px;
+}
+  
+#hackerman {
+    width: 70%
+}
+  
+#logo {
+    width: 5%
+}
+  
+.close {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: white;
+}   
+
+.nav-items {
+    display: inline;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.learn-more-button {
+    margin: 20px;
+}
